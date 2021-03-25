@@ -276,3 +276,30 @@ header {
 .logo-text .logo-span {
   color: #a2c376;
 }
+/*Booking Form*/
+body
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/heroimg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.booking-form-box
+{
+  max-width: 350px;
+  border: 1px solid #ced4da;
+  margin: 10% auto 0;
+}
+label{
+  width:150px;
+  display:inline-block;
+}
+input[type=submit]{
+  margin-top:5px;
+  width:242px;
+  margin-left:153px;
+  background-color:pink;
+  border:solid 2px green;
+}
+textarea{
+  vertical-align:middle;
+}
